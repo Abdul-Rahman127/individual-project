@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Photography Site</title>
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header">
+            <div class = "nav-section">
+                <div class = "brand-and-navBtn">
+                    <span class = "brand-name">
+                        MALCOLMLAB
+                    </span>
+                    <span class = "navBtn flex">
+                        <i class = "fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <!-- navigation menu -->
+                <nav class = "top-nav">
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "gallery.html">Gallery</a></li>
+                        <li><a href = "Services.html" >Services</a></li>
+                        <li><a href = "contact.html" class = "active">Contact</a></li>
+                    </ul>
+                </nav>
+                <span class = "search-icon">
+                    <i class = "fas fa-search"></i>
+                </span>
+            </div>
+
+            <div class = "container about">
+                <div class = "about-content">
+                    <div class = "about-img flex">
+                        <img src = "images/about-img3.jpg" alt = "photographer img">
+                    </div>
+                    <h2>Malcolm Lismore </h2>
+                    <h3>Photographer</h3>
+                    <blockquote>
+                        "Capture Your Perfect Moments with Professional photography services to help you preserve your precious memories."
+                        <span>-Malcolm Lismore</span>
+                    </blockquote>
+                </div>
+
+                <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href = "https://www.facebook.com/"><i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://twitter.com/i/flow/login"><i class = "fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://www.instagram.com/"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+<!-- Main content section for contact information -->
+<section class = "section-five">
+            <div class = "container">
+                        <!-- Top section with contact heading and introductory text -->
+                <div class = "contact-top">
+                    <h3>CONTACT ME</h3>
+                    <p>I am here to help you with any inquiries you may have about my services. Please feel free to call or email me or use my contact form to get in touch with me. I look forward to hearing from you!</p>
+                </div>
+        <!-- Middle section with contact details -->
+                <div class = "contact-middle">
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-map-signs"></i>
+                        </span>
+                        <span>Address</span>
+                        <p>Scotland - fort william </p>
+                    </div>
+            <!-- Contact detail: Address -->
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-phone"></i>
+                        </span>
+                        <span>Contact Number</span>
+                        <p>+44771234569</p>
+                    </div>
+            <!-- Contact detail: Contact Number -->
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-paper-plane"></i>
+                        </span>
+                        <span>Email Address</span>
+                        <p>malcolmlismore7@gmail.com</p>
+                    </div>
+        <!-- Contact detail: Website -->
+                <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-globe"></i>
+                        </span>
+                        <span>Website</span>
+                        <p>www.malcolmlismore7.com</p>
+                    </div>
+                </div>    <!-- Contact detail: Website -->
+
+<!-- Bottom section with contact form -->
+
+                <div class = "contact-bottom">
+                    <form class = "form">
+                        <input type = "text" placeholder="Your Name">
+                        <input type = "email" placeholder="Your Email">
+                        <input type = "text" placeholder="contact number">
+                        <input type = "text" placeholder="location">
+                        <input type = "text" placeholder="time">
+                        <input type = "text" placeholder="date">
+                        <input type = "text" placeholder="Subject">
+                        <textarea rows = "9" placeholder="comment"></textarea>
+                        <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Styles for the pop-up */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Styles for the overlay background */
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <input type="submit" class="btn" value="submit" id="showPopupButton">
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="popup" id="popup">
+        <h2>Submit Successfully</h2>
+        <p>Thank you submit the information </p>
+        <button id="closePopup">Close</button>
+    </div>
+
+    <script>
+        // Function to show the pop-up
+        document.getElementById("showPopupButton").addEventListener("click", function() {
+            document.getElementById("overlay").style.display = "block";
+            document.getElementById("popup").style.display = "block";
+        });
+
+        // Function to close the pop-up
+        document.getElementById("closePopup").addEventListener("click", function() {
+            document.getElementById("overlay").style.display = "none";
+            document.getElementById("popup").style.display = "none";
+        });
+    </script>
+</body>
+</html>
+
+                        
+                    </form>
+
+                    <!-- Map -->
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4373844.541564852!2d-9.9620817893264!3d57.637160087229745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4861e2c403f2a19f%3A0xe7c1fad809c30714!2sScotland%2C%20UK!5e0!3m2!1sen!2slk!4v1698306891299!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of main -->
+
+
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container container">
+                <div>
+                            <!-- Left section with photographer's about -->
+                    <h2>MALCOLMLISMORE</h2>
+                    <p>My name is Malcolm Lismore and I am a freelance photographer based on the North West coast of Scotland. My biggest passion in photography is for the natural world. I sell many images of the rugged Scottish landscape, its natural wildlife and coastal birds. However, it’s not just landscape and wildlife photography I am interested in, like many photographers I can also be hired for weddings, portraits, and special events. I am constantly looking for new ways to showcase my photography skills and I am excited to work with you to create a beautiful representation of your special moments.</p>
+                </div>
+                <div>
+                            <!-- Right section with subscription information -->
+                    <h3>Free Subscription!</h3>
+                    <p>Get our emails on inspiration & tips to grow your creative business.</p>
+            <!-- Subscription form -->
+                    <div class = "subs">
+                        <i class = "fas fa-envelope"></i>
+                        <input type = "email" id = "email" placeholder="Email Address">
+                        <button type = "submit">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+                <!-- Copyright notice -->
+            <p>&copy; Copyright 2023 MALCOLM LISMORE . All Rights Reserved</p>
+        </footer>
+        <!-- end of footer -->
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
